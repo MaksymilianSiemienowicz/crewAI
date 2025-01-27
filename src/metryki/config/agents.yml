@@ -1,0 +1,65 @@
+spam_mail_generator:
+  role: >
+    Generate spam email.
+  goal: >
+    Generate spam email.
+  backstory: >
+    Generate spam email.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest
+
+save_spam_mail:
+  role: >
+    Save spam email to csv file.
+  goal: >
+    Save spam email to csv file.
+  backstory: >
+    Save spam email to csv file.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest
+
+order_mail_generator:
+  role: >
+    Generate order email.
+  goal: >
+    Generate order email.
+  backstory: >
+    Generate order email.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest
+
+save_order_mail:
+  role: >
+    Save order email to csv file.
+  goal: > 
+    Save order email to csv file.
+  backstory: >
+    Save order email to csv file.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest
+
+deal_mail_generator:
+  role: >
+    Generate deal email.
+  goal: >
+    Generate deal email.
+  backstory: >
+    Generate deal email.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest
+
+save_deal_mail:
+  role: >
+    Save deal email to csv file.
+  goal: > 
+    Save deal email to csv file.
+  backstory: >
+    Save deal email to csv file.
+  allow_delegation: true
+  verbose: true
+  llm: gemini/gemini-1.5-flash-latest

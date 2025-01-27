@@ -1,0 +1,60 @@
+spam_mail_generator_task:
+  description: >
+    Generate spam email, with any run mail should be different. Return conent and subject of this email. Subject and content should be valid strings.
+    Email content and subject should be one line string without switching to new lines.
+  expected_output: >
+    content: string - not null
+    subject: string - not null
+
+save_spam_mail_task:
+  description: >
+    Save spam email to csv file. Save content and subject of email to csv file.
+    Provide to tool:
+    query: valid string
+    content: string from spam_mail_generator_task not null
+    subject: string from spam_mail_generator_task not null
+    file_path: ./spam_mail.csv
+  expected_output: >
+    Mail saved.
+  
+order_mail_generator_task:
+  description: >
+    Generate email in which you would like to order painting, with any run mail should be different. Email should contain: technique of painting, prize, estimated delivery time and size. Return conent and subject of this email. Subject and content should be valid strings.
+    You have to use random values for each of these fields.
+    Email content and subject should be one line string without switching to new lines.
+  expected_output: >
+    content: string - not null
+    subject: string - not null
+  
+save_order_mail_task:
+  description: >
+    Save order email to csv file. Save content and subject of email to csv file.
+    Provide to tool:
+    query: valid string
+    content: string from order_mail_generator_task not null
+    subject: string from order_mail_generator_task not null
+    file_path: ./order_mail.csv
+  expected_output: >
+    Mail saved.
+
+deal_mail_generator_task:
+  description: >
+    Generate email in which you will offer collaboration to painter.]
+    You want him to promote something on his instagram, be creative in choosing things to promore. In mail provide price you want to pay for collaboration. Subject and content should be valid strings.
+    You have to use random values for each of these fields.
+    Email content and subject should be one line string without switching to new lines.
+  expected_output: >
+    content: string - not null
+    subject: string - not null
+  
+save_deal_mail_task:
+  description: >
+    Save order email to csv file. Save content and subject of email to csv file.
+    Provide to tool:
+    query: valid string
+    content: string from order_mail_generator_task not null
+    subject: string from order_mail_generator_task not null
+    file_path: ./deal_mail.csv
+  expected_output: >
+    Mail saved.
+
