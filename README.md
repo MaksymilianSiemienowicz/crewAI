@@ -18,3 +18,6 @@ export POSTGRES_PORT=xxx
 
 5. Upewnienie sie ze na koncie gmail jest wlaczona obsluga IPAM oraz SMTP
 6. uruchomienie funkcji main -- python3 src/nai/main.py
+
+
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/cc096759-4f1f-4e2f-b92f-af952e81d219)
